@@ -1,17 +1,46 @@
 # To-Do List App ✅
 
-An Android app to manage daily tasks efficiently with add, delete, and mark-as-done functionality.
+An Android application designed to help users manage daily tasks efficiently.  
+This project was developed as part of the Coding Samurai internship program.
+
+---
 
 ## 📱 Features
-- Add tasks
+- Add new tasks
 - Delete tasks
 - Mark tasks as completed
-- Persistent local storage
+- Simple and clean user interface
+- Tasks stored locally (data persists after app restart)
+
+---
 
 ## 🛠 Tech Stack
 - Java
+- Android Studio
 - SQLite / SharedPreferences
 - RecyclerView
 
+---
+
 ## ⬇️ Download APK
-👉 [Download To-Do List App APK](https://github.com/YOUR_USERNAME/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/v1.0/todo-app.apk)
+Click the link below to download and install the application on your Android device:
+
+👉 [Download To-Do List App APK](https://github.com/YOUR_USERNAME/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/v1.0/todo-list-app.apk)
+
+---
+
+## 📌 Installation Notes
+- Enable **Install from Unknown Sources** on your Android phone
+- Download the APK
+- Open the APK file and install
+
+---
+
+## 📷 Screenshots
+(Add screenshots of the app here if available)
+
+---
+
+## 👨‍💻 Developed By
+Prajwal K C  
+Coding Samurai Internship Project
