@@ -40,8 +40,7 @@ It fetches live data from an external API and presents it in a clean and user-fr
 
 Click the link below to download and install the Weather App APK:
 
-👉 **[Download Weather App APK](https://github.com/prajwalkc05/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/weather-v1.0/weather_app.apk)**
-
+👉 **[Download Weather App APK](https://github.com/prajwalkc05/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/weather-v1.0/weatherapp.apk)
 > ⚠️ Make sure to enable **Install from Unknown Sources** on your Android device before installing.
 
 ---
