@@ -44,7 +44,7 @@ All data is saved persistently using SQLite, ensuring notes remain available eve
 
 Click the link below to download and install the Notes App APK:
 
-👉 **[Download Notes App APK](https://github.com/prajwalkc05/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/notes-v1.0/notes_app.apk)**
+👉 **[Download Notes App APK](https://github.com/prajwalkc05/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/notes-v1.0/notes.apk)
 
 > ⚠️ Enable **Install from Unknown Sources** on your Android device before installing the APK.
 
