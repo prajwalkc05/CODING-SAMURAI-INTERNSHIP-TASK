@@ -39,8 +39,7 @@ Firebase handles backend services such as user login and message storage, making
 
 Click the link below to download and install the Chat Application APK:
 
-👉 **[Download Chat Application APK](https://github.com/prajwalkc05/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/chat-v1.0/chat_app.apk)**
-
+👉 **[Download Chat Application APK](https://github.com/prajwalkc05/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/chat-v1.0/chatapp.apk)
 > ⚠️ Enable **Install from Unknown Sources** on your Android device before installing.
 
 ---
