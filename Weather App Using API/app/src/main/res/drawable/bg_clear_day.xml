@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Warm Amber for Clear Day -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#FFC107"
+                android:centerColor="#FFB300"
+                android:endColor="#FF9800"
+                android:angle="270" />
+        </shape>
+    </item>
+    <!-- Sunny Glow Overlay -->
+    <item>
+        <shape android:shape="oval">
+             <gradient
+                android:type="radial"
+                android:gradientRadius="400dp"
+                android:centerX="0.5"
+                android:centerY="0.2"
+                android:startColor="#80FFEB3B"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

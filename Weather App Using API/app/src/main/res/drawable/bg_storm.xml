@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Deep Storm Gradient (Charcoal) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#263238"
+                android:centerColor="#102027"
+                android:endColor="#000000"
+                android:angle="270" />
+        </shape>
+    </item>
+    <!-- Purple/Dark Accent -->
+    <item>
+        <shape android:shape="oval">
+             <gradient
+                android:type="radial"
+                android:gradientRadius="400dp"
+                android:centerX="0.8"
+                android:centerY="0.2"
+                android:startColor="#30311B92"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

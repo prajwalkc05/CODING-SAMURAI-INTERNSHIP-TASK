@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary_sky_blue">#4A90E2</color>
+    <color name="secondary_soft_cyan">#50E3C2</color>
+    
+    <!-- Backgrounds -->
+    <color name="bg_cloud_white">#F5F7FA</color>
+    <color name="card_frost_white">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_midnight_blue">#1F2933</color>
+    <color name="text_slate_gray">#6B7280</color>
+    <color name="divider_mist_gray">#E5E7EB</color>
+
+    <!-- Base Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Sunny Gradient -->
+    <color name="sunny_start">#FDB813</color>
+    <color name="sunny_end">#FFD56B</color>
+
+    <!-- Cloudy Gradient -->
+    <color name="cloudy_start">#BDC3C7</color>
+    <color name="cloudy_end">#ECEFF1</color>
+    
+    <!-- Rainy Gradient -->
+    <color name="rainy_start">#2C3E50</color>
+    <color name="rainy_end">#4CA1AF</color>
+
+    <!-- Storm Gradient -->
+    <color name="storm_start">#141E30</color>
+    <color name="storm_end">#243B55</color>
+    
+    <!-- Snow Gradient -->
+    <color name="snow_start">#E0EAFC</color>
+    <color name="snow_end">#CFDEF3</color>
+</resources>

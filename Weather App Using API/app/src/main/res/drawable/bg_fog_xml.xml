@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Hazy Grey Gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#CFD8DC"
+                android:centerColor="#B0BEC5"
+                android:endColor="#90A4AE"
+                android:angle="270" />
+        </shape>
+    </item>
+    <!-- Blur Effect Simulation (Overlay) -->
+    <item>
+        <shape>
+            <solid android:color="#80FFFFFF"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Grey-Blue for Cloudy Day -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#90A4AE"
+                android:centerColor="#78909C"
+                android:endColor="#607D8B"
+                android:angle="270" />
+        </shape>
+    </item>
+    <!-- Soft Mist Overlay -->
+    <item>
+        <shape>
+            <solid android:color="#33FFFFFF"/>
+        </shape>
+    </item>
+</layer-list>

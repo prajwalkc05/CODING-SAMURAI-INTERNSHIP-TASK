@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NotesApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Text Colors for Light Mode -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorHint">@color/gray</item>
+
+        <!-- Correct attribute for SearchView style -->
+        <item name="searchViewStyle">@style/CustomSearchView</item>
+    </style>
+    
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="autoCompleteTextViewStyle">@style/CustomAutoCompleteTextView</item>
+        <item name="searchIcon">@android:drawable/ic_menu_search</item>
+        <item name="queryBackground">@null</item>
+        <item name="submitBackground">@null</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="CustomAutoCompleteTextView" parent="Widget.AppCompat.AutoCompleteTextView">
+         <item name="android:textColor">@color/white</item>
+         <item name="android:textColorHint">@color/gray</item>
+    </style>
+</resources>

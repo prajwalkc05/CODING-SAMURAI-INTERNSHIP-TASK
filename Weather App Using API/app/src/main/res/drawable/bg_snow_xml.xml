@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cool White/Blue Snow Gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#E0EAFC"
+                android:centerColor="#CFDEF3"
+                android:endColor="#B0BEC5"
+                android:angle="270" />
+        </shape>
+    </item>
+    <!-- Soft Mist Overlay -->
+    <item>
+        <shape>
+            <solid android:color="#40FFFFFF"/>
+        </shape>
+    </item>
+</layer-list>
