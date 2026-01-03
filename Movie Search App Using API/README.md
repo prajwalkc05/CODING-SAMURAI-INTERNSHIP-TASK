@@ -41,7 +41,7 @@ The app fetches real-time data from a movie API and displays results in a clean,
 
 Click the link below to download and install the Movie Search App APK:
 
-👉 **[Download Movie Search App APK](https://github.com/prajwalkc05/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/movie-v1.0/movie_search_app.apk)**
+👉 **[Download Movie Search App APK](https://github.com/prajwalkc05/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/movie-v1.0/moviesearch.apk)
 
 > ⚠️ Enable **Install from Unknown Sources** on your Android device before installing the APK.
 
