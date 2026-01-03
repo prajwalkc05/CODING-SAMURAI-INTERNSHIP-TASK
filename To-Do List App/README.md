@@ -25,7 +25,7 @@ This project was developed as part of the Coding Samurai internship program.
 ## ⬇️ Download APK
 Click the link below to download and install the application on your Android device:
 
-👉 [Download To-Do List App APK](https://github.com/YOUR_USERNAME/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/v1.0/todo-list-app.apk)
+👉 [Download To-Do List App APK](https://github.com/prajwalkc05/CODING-SAMURAI-INTERNSHIP-TASK/releases/download/todo-v1.0/tolistapp.apk)
 
 ---
 
