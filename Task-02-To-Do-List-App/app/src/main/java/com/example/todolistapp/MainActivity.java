@@ -1,8 +1,12 @@
 package com.example.todolistapp;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -68,5 +72,31 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.OnTas
     @Override
     public void onDelete(TaskEntity task) {
         taskViewModel.delete(task);
+    }
+
+    @Override
+    public void onEdit(TaskEntity task) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.dialog_edit_task, null);
+        builder.setView(dialogView);
+
+        final EditText etEditTask = dialogView.findViewById(R.id.etEditTask);
+        etEditTask.setText(task.taskName);
+
+        builder.setTitle("Edit Task")
+                .setPositiveButton("Update", (dialog, which) -> {
+                    String updatedTaskName = etEditTask.getText().toString().trim();
+                    if (!updatedTaskName.isEmpty()) {
+                        task.taskName = updatedTaskName;
+                        taskViewModel.update(task);
+                    } else {
+                        Toast.makeText(MainActivity.this, "Task name cannot be empty", Toast.LENGTH_SHORT).show();
+                    }
+                })
+                .setNegativeButton("Cancel", (dialog, which) -> dialog.dismiss());
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
     }
 }
